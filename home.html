@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+        //callback functions -> a function which we pass as a parameter to another functions.
+
+        // function add(a,func1){
+        //   let c=a+b;
+        //   console.log (c);
+        // }
+        // function func1(){
+
+        // }
+        // add(3,2)
+
+        function displayer(){
+            console.log('displaying numbers!!')
+        }
+        function addition(){
+            console.log('adding two numbers!!');
+        }
+        function subtraction(){
+            console.log('subtracting two numbers!!');
+        }
+        function func1(a,b,callbackfunction){
+            console.log('main function!');
+            //initial
+            callbackfunction();
+        }
+        func1(3,5,addition);
+    </script>
+</body>
+</html>

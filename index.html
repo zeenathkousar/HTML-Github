@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50%;
+            padding: 3px;
+            margin: 3px;
+            border: 2px solid black;
+        }
+
+      #box-1{
+            background-color: yellow;
+            position: relative;
+            top:20px;
+            z-index: 2;
+        }
+        #box-2{
+            background-color: green;
+            position: absolute;
+            right:10px;
+            z-index: 3;
+            
+        }
+
+        #box-3{
+            background-color: blue;
+
+            position: relative;
+            left:5px;
+            z-index: 4;
+        }
+        #box-4{
+            background-color: red;
+
+        }
+        /* #box-1 p{
+            border:1px solid black;
+            background-color: aqua;
+            width: 60%;
+            margin-left: 30px;
+            position: absolute;
+            top:10px;
+        } */
+
+    </style>
+</head>
+<body>
+    <!-- position: static,relative,absolute,fixed,sticky -->
+     <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, repellat corrupti animi ducimus harum sequi qui perspiciatis pariatur sit nam unde dicta, doloremque consequatur labore quia neque porro, vitae obcaecati dolore amet. Itaque quidem, cumque quia ratione laudantium harum nobis enim molestiae totam dignissimos qui non rem, accusantium illo. Repellendus fugiat ipsam aut non, nobis quia! Fugit dicta deleniti expedita, tempore recusandae aliquid inventore asperiores itaque suscipit sunt mollitia? Iste?</div>
+     
+    <div class="box" id="box-1">1</div>
+     
+    <div class="box" id="box-2">2</div>
+    <div class="box" id="box-3">3</div>
+    <div class="box" id="box-4">4</div>
+
+</body>
+</html>
